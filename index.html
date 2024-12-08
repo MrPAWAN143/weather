@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="search">
+                <input type="search" name="" id="searchinput" placeholder="Search by city">
+            <button class="searchbtn">Search</button>
+        </div>
+        <h2 class="msg"></h2>
+        <h2 class="msg n2"></h2>
+
+       <div class="main"> 
+
+        <div class="weatherreport">
+            <div class="imagediv">
+                <img src="weather.png" alt="" class="cloudyimg">
+                <h3 class="a1"></h3>
+            </div>
+            <h1 class="temp"><span class="tempshow"></span>°C</h1>
+            <h2 class="city">Delhi <span class="contery"></span></h2>
+        </div>
+
+        <div class="sunset">
+            <div class="humidity">
+                <img src="sunrise.png" class="sunriseimg"></img>
+                <div class="humidityrate subrise"><span></span><span class="sun">Sunrise</span></div>
+            </div>
+
+            <div class="windspeed">
+                <img src="sunset.png" class="sunsetimg"></img>
+                <div class="windspeedrate sunsettime"><span>5:45 PM</span><span>Sunset</span></div>
+            </div>
+        </div>
+
+        <div class="otherinformation">
+            <div class="humidity">
+                <img src="humidity.png" class="humidityicon"></img>
+                <div class="humidityrate humi"><p>60 </p><span>Humidity</span></div>
+            </div>
+
+            <div class="windspeed">
+                <img src="wind.png" class="windspeedicon"></img>
+                <div class="windspeedrate"><span class="windspd">20km/h</span><span>Wind Speed</span></div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
