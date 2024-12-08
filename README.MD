@@ -6,7 +6,7 @@ The **Weather App** is a simple, responsive, and intuitive web-based application
 Designed with modern web technologies and user experience best practices, this app brings you accurate weather details with a sleek and intuitive interface.
 
 ---
-**GO LIVE ** 
+**GO LIVE** https://weather-app-khaki-ten.vercel.app/
 
 ## 🚀 Features
 ✅ **Real-Time Weather Information**  
